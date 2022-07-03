@@ -29,10 +29,9 @@ function List( {contacts} ) {
           <span>{contact.fullname}</span>
           <span>{contact.phone_number} </span>
           </li>
-        ))}
-        
-      </ul>
-
+        ))}  
+      </ul> 
+      
       <p>
        Total Contacts  ({filtered.length})
       </p>

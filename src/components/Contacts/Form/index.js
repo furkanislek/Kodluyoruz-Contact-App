@@ -19,7 +19,7 @@ function Form({ addContact, contacts }) {
 
         addContact([...contacts,form]);
 
-        setForm(initialFormValues)
+        setForm(initialFormValues)  // input içini temizlemek için kullanıyoruz.
     }
 
   return (
